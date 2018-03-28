@@ -6,3 +6,8 @@ export interface Album {
     coverImage:string;
     tracks:Track[];
 }
+export interface AlbumInfo {
+    id:number;
+    album:Album;
+    artist:string;
+}
